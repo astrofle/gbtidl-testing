@@ -1,6 +1,11 @@
 # gbtidl-testing
 Performance testing for GBTIDL
 
+## Runing the tests
+`gbtidl -e timeit_all &> timeit.log`
+
+The parse timeit.log for the results.
+
 ## Timing results
 The results are found in: tab\_gbtidl.out
 The table uses the IPAC format. More details on individual columns here: <https://github.com/GreenBankObservatory/dysh/tree/mwp-devel/benchmark#output>
